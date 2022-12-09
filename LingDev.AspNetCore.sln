@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LingDev.AspNetCore.Jwt", "s
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LingDev.AspNetCore.Security", "src\LingDev.AspNetCore.Security\LingDev.AspNetCore.Security.csproj", "{3B13CE7E-DF76-4F29-9FE3-E2C6E3672256}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LingDev.AspNetCore", "src\LingDev.AspNetCore\LingDev.AspNetCore.csproj", "{2D251116-43E5-46B3-8871-B9FD89AFE43C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -26,9 +28,14 @@ Global
 		{3B13CE7E-DF76-4F29-9FE3-E2C6E3672256}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3B13CE7E-DF76-4F29-9FE3-E2C6E3672256}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3B13CE7E-DF76-4F29-9FE3-E2C6E3672256}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2D251116-43E5-46B3-8871-B9FD89AFE43C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2D251116-43E5-46B3-8871-B9FD89AFE43C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2D251116-43E5-46B3-8871-B9FD89AFE43C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2D251116-43E5-46B3-8871-B9FD89AFE43C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{F9C92ECA-47E3-413F-B039-9C6B9E0F555F} = {869D150C-1245-42A4-A03D-E42C0F78BE1B}
 		{3B13CE7E-DF76-4F29-9FE3-E2C6E3672256} = {869D150C-1245-42A4-A03D-E42C0F78BE1B}
+		{2D251116-43E5-46B3-8871-B9FD89AFE43C} = {869D150C-1245-42A4-A03D-E42C0F78BE1B}
 	EndGlobalSection
 EndGlobal

@@ -4,39 +4,39 @@
     <TargetFrameworks>net6.0;net7.0;</TargetFrameworks>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
-		<GenerateDocumentationFile>True</GenerateDocumentationFile>
-		<PackageOutputPath>.nuget</PackageOutputPath>
-		<IncludeBuildOutput>false</IncludeBuildOutput>
-		<Description>A security authentication class library for AspNetCore web applications.</Description>
-		<Version>1.0.0</Version>
-	</PropertyGroup>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <PackageOutputPath>.nuget</PackageOutputPath>
+    <IncludeBuildOutput>false</IncludeBuildOutput>
+    <Description>A security authentication class library for AspNetCore web applications.</Description>
+    <Version>1.0.0</Version>
+  </PropertyGroup>
 
-	<PropertyGroup>
-		<Authors>LingDev</Authors>
-		<Title>LingDev.AspNetCore.Security</Title>
-		<Product>LingDev.AspNetCore.Security</Product>
-		<PackageId>LingDev.AspNetCore.Security</PackageId>
-		<PackageIcon>icon.png</PackageIcon>
-		<PackageTags>lingdev;aspnetcore;security;permission;route;</PackageTags>
-		<PackageReadmeFile>README.md</PackageReadmeFile>
-		<PackageReleaseNotes>Please Check [Release Notes](https://github.com/ling921/LingDev.AspNetCore/blob/master/src/LingDev.AspNetCore.Security/RELEASE.md)</PackageReleaseNotes>
-		<Copyright>Copyright © 2022 LingDev.com All rights reserved.</Copyright>
-		<NeutralLanguage>en</NeutralLanguage>
-		<license>https://raw.githubusercontent.com/ling921/LingDev.AspNetCore/master/LICENSE</license>
-		<PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
-		<PackageProjectUrl>https://github.com/ling921/LingDev.AspNetCore</PackageProjectUrl>
-		<RepositoryUrl>https://github.com/ling921/LingDev.AspNetCore</RepositoryUrl>
-		<RepositoryType>Github</RepositoryType>
-	</PropertyGroup>
+  <PropertyGroup>
+    <Authors>LingDev</Authors>
+    <Title>LingDev.AspNetCore.Security</Title>
+    <Product>LingDev.AspNetCore.Security</Product>
+    <PackageId>LingDev.AspNetCore.Security</PackageId>
+    <PackageIcon>icon.png</PackageIcon>
+    <PackageTags>lingdev;aspnetcore;security;permission;route;</PackageTags>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <PackageReleaseNotes>Please Check [Release Notes](https://github.com/ling921/LingDev.AspNetCore/blob/master/src/LingDev.AspNetCore.Security/RELEASE.md)</PackageReleaseNotes>
+    <Copyright>Copyright © 2022 LingDev.com All rights reserved.</Copyright>
+    <NeutralLanguage>en</NeutralLanguage>
+    <license>https://raw.githubusercontent.com/ling921/LingDev.AspNetCore/master/LICENSE</license>
+    <PackageLicenseExpression>Apache-2.0</PackageLicenseExpression>
+    <PackageProjectUrl>https://github.com/ling921/LingDev.AspNetCore</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/ling921/LingDev.AspNetCore</RepositoryUrl>
+    <RepositoryType>Github</RepositoryType>
+  </PropertyGroup>
 
-	<ItemGroup>
-		<FrameworkReference Include="Microsoft.AspNetCore.App" />
-	</ItemGroup>
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
 
-	<ItemGroup>
-		<None Include="..\..\resources\icon.png" Link="icon.png" Pack="true" PackagePath="\" />
-		<None Include="README.md" Pack="true" PackagePath="\" />
-		<None Include="RELEASE.md" Pack="true" PackagePath="\" />
-	</ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\resources\icon.png" Link="icon.png" Pack="true" PackagePath="\" />
+    <None Include="README.md" Pack="true" PackagePath="\" />
+    <None Include="RELEASE.md" Pack="true" PackagePath="\" />
+  </ItemGroup>
 
 </Project>
