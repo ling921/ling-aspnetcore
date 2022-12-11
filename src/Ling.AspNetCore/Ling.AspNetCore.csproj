@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>net6.0;net7.0;</TargetFrameworks>
+  </PropertyGroup>
+
+	<PropertyGroup>
+		<PackageId>Ling.AspNetCore</PackageId>
+		<PackageVersion>0.1.0-beta.202212112056</PackageVersion>
+		<Description>A class library for AspNetCore web applications.</Description>
+		<PackageTags>ling;aspnetcore;filter;api;</PackageTags>
+		<PackageReleaseNotes>Please Check https://github.com/ling921/Ling.AspNetCore/blob/master/src/Ling.AspNetCore/RELEASE.md</PackageReleaseNotes>
+	</PropertyGroup>
+
+  <ItemGroup>
+    <FrameworkReference Include="Microsoft.AspNetCore.App" />
+  </ItemGroup>
+
+</Project>
